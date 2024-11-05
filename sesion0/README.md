@@ -8,3 +8,8 @@
 7. Para levantar el servidor localhost, Se ha añadido a `scripts` del archivo `package.json ` lo siguiente: `"dev: lite-server"` y con `npm run dev ` ejecutamos el lite-server
 8. Se crea la carpeta `./src` donde estarán los archivos 'principales'
 9. Se crea el archivo `bs-config.json` para configurar en qué puerto queremos levantar el servidor, que tipo de archivos, y que busque los archivos index, que esten DENTRO de la carpeta `./src` NOTA: Las rutas iran siempre con punto seguido de la ruta.
+10. En `index.html`, creamos el div root donde inyectaremos nuestro contenido
+11.Se crea la carpeta components para ir guardando los componentes de nuestro proyecto
+12. Usamos `export` en la funcion del componente `menu` para luego en el index importarla con `import`
+13. cambiamos la etiqueta script y añadimos el tipo `module`
+14. En el componente `header` reutilizamos el componente menu y añadimos un h1, y este nuevo componenente `header` lo importamos en el componente `app`, que se inyectará en el div `root`
