@@ -13,3 +13,6 @@
 12. Usamos `export` en la funcion del componente `menu` para luego en el index importarla con `import`
 13. cambiamos la etiqueta script y añadimos el tipo `module`
 14. En el componente `header` reutilizamos el componente menu y añadimos un h1, y este nuevo componenente `header` lo importamos en el componente `app`, que se inyectará en el div `root`
+13. Creamos la carpeta `./vistas`, donde tendremos los componentes que funcionaran como paginas
+14.Creamos la funcion `navegar()`, que nos permitirá navegar entre diferente paginas, dependiendo del parametro que demos
+15. Añadimos el evento click a los botones de la pagina `home` y `about`, llamando en ambas a la función `navegar()` con su parámetro correspondiente.
